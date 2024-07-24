@@ -1,5 +1,5 @@
 {
-  "homepage": "https://gurmeetmehra.github.io/blog",
+  "homepage": "https://gurmeetmehra.github.io/blog/",
   "name": "blog",
   "version": "0.1.0",
   "private": true,
@@ -21,13 +21,14 @@
     "uuid": "^10.0.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "predeoloy":"npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "deploy": "gh-pages -d build"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
